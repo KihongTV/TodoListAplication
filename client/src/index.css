@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.active{
+    color: red;
+}
+body{
+    direction: rtl;
+    font-family: Vazir;
+}
+@font-face {
+    font-family: 'Vazir';
+    src: url('fonts/Vazir.woff2') format('woff2'),
+         url('fonts/Vazir.woff') format('woff'),
+         url('fonts/Vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
